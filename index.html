@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechConnect</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="Atom.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>TechFuture Summit</h1>
+    </header>
+    
+    <section id="evento">
+        <h2>Sobre o Evento</h2>
+        <p><strong>Data:</strong> 4 de Abril de 2025</p>
+        <p><strong>Local:</strong> Centro de Convenções TechConnect</p>
+        <p>Você é desenvolvedor, designer ou simplesmente apaixonado por tecnologia e inovação? Então, não pode perder nosso próximo encontro! Vamos discutir as principais tendências em tecnologia e design, trocar ideias e explorar o futuro digital juntos.</p>
+    </section>
+    
+    <section id="palestrantes">
+        <h2>Palestrantes</h2>
+        <div class="palestrante">
+            <img src="img/pedro.jpg" alt="Palestrante Pedro">
+            <h3>Pedro Lemos</h3>
+            <p class="especialidade">Designer de Produto e Especialista em Interfaces</p>
+            <p class="biografia">Pedro Lemos é designer de produto com 12 anos de experiência, especializado em criar soluções digitais intuitivas. Passou por empresas como Nubank e Itaú, e é reconhecido por transformar conceitos complexos em interfaces simples e eficazes. Além disso, é mentor e palestrante em eventos de design e tecnologia, com foco em tendências de usabilidade e design responsivo.</p>
+        </div>
+        <div class="palestrante">
+            <img src="img/tiago.png" alt="Palestrante Tiago">
+            <h3>Tiago Farias</h3>
+            <p class="especialidade">Desenvolvedor Full Stack e Especialista em Inteligência Artificial</p>
+            <p class="biografia">Tiago Farias é desenvolvedor Full Stack com 8 anos de experiência e foco em Inteligência Artificial e automação. Trabalhou com tecnologias avançadas em empresas de renome, como Machine Learning e Big Data, e é um defensor da integração entre design e desenvolvimento, compartilhando seu conhecimento em conferências e workshops.</p>
+        </div>
+    </section>
+    
+    <section id="inscricao">
+        <h2>Inscreva-se</h2>
+        <form>
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required> 
+            
+            <p>Escolha o tipo de ingresso:</p>
+            <label><input type="radio" name="ingresso" value="presencial" required> Presencial</label>
+            <label><input type="radio" name="ingresso" value="online" required> Online</label><br>
+            <br>
+            
+            <label>
+                <input type="checkbox" name="termos" required>
+                Aceito os <a href="https://lockgamer.com/wp-content/uploads/2014/05/sergiomallandro.jpg?w=1180" target="_blank">termos e condições</a>
+            </label>
+            
+            <button type="submit">Enviar Inscrição</button>
+        </form>
+    </section>
+</body>
+</html>
