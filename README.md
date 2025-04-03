@@ -5,3 +5,5 @@ Tecnologias utilizadas: <br>
 -CSS
 
 Acesse: https://matheusmacedow.github.io/TechConnect/
+
+https://techconect.netlify.app/
